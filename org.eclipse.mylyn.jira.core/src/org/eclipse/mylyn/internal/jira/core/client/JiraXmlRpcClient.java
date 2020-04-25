@@ -568,6 +568,7 @@ public class JiraXmlRpcClient extends AbstractJiraClient implements IJiraWikiCli
 
 		info = new JiraRepositoryInfo(epochAPIVersion, majorAPIVersion, minorAPIVersion);
 		if (!info.isApiVersionOrHigher(REQUIRED_EPOCH, REQUIRED_MAJOR, REQUIRED_MINOR)) {
+			throw new JiraException(NLS.bind(Messages.JiraXmlRpcClient_API_version_X_unsupported_Error, info.toString(),
 					REQUIRED_REVISION));
 		}
 		return info;
