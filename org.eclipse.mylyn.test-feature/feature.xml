@@ -55,7 +55,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.mylyn.trac.tests"
+         id="org.eclipse.mylyn.jira.tests"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
@@ -80,7 +80,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.mylyn.trac.tests.source"
+         id="org.eclipse.mylyn.jira.tests.source"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
@@ -109,7 +109,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.mylyn.trac.core.tests"
+         id="org.eclipse.mylyn.jira.core.tests"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -117,7 +117,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.mylyn.trac.ui.tests"
+         id="org.eclipse.mylyn.jira.ui.tests"
          download-size="0"
          install-size="0"
          version="0.0.0"

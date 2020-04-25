@@ -25,7 +25,7 @@
    <feature url="features/org.eclipse.mylyn.tasks.ide_0.0.0.jar" id="org.eclipse.mylyn.tasks.ide" version="0.0.0">
       <category name="Integration"/>
    </feature>
-   <feature url="features/org.eclipse.mylyn.trac_feature_0.0.0.jar" id="org.eclipse.mylyn.trac_feature" version="0.0.0">
+   <feature url="features/org.eclipse.mylyn.jira_feature_0.0.0.jar" id="org.eclipse.mylyn.jira_feature" version="0.0.0">
       <category name="Integration"/>
    </feature>
    <feature url="features/org.eclipse.mylyn.sdk_feature_0.0.0.jar" id="org.eclipse.mylyn.sdk_feature" version="0.0.0">

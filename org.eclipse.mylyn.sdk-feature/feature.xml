@@ -37,7 +37,7 @@
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.mylyn.trac_feature"
+         id="org.eclipse.mylyn.jira_feature"
          version="0.0.0"/>
 
    <includes
@@ -171,17 +171,16 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.mylyn.trac.core.source"
+         id="org.eclipse.mylyn.jira.core.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.mylyn.trac.ui.source"
+         id="org.eclipse.mylyn.jira.ui.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
 </feature>
