@@ -17,7 +17,7 @@
       </repositoryMigrator>
    </extension>
    <extension
-         point="org.eclipse.mylyn.jira.core.templates">
+         point="org.eclipse.mylyn.tasks.core.templates">
       <repository
             addAutomatically="false"
             anonymous="true"
