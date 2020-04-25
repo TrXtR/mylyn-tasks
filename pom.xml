@@ -118,12 +118,12 @@
     <module>org.eclipse.mylyn.tasks.ui</module>
     <module>org.eclipse.mylyn.tasks.ui.tests</module>
     <module>org.eclipse.mylyn.tests.util</module>
-    <module>org.eclipse.mylyn.trac-feature</module>
-    <module>org.eclipse.mylyn.trac.core</module>
-    <module>org.eclipse.mylyn.trac.core.tests</module>
-    <module>org.eclipse.mylyn.trac.tests</module>
-    <module>org.eclipse.mylyn.trac.ui</module>
-    <module>org.eclipse.mylyn.trac.ui.tests</module>
+    <module>org.eclipse.mylyn.jira-feature</module>
+    <module>org.eclipse.mylyn.jira.core</module>
+    <module>org.eclipse.mylyn.jira.core.tests</module>
+    <module>org.eclipse.mylyn.jira.tests</module>
+    <module>org.eclipse.mylyn.jira.ui</module>
+    <module>org.eclipse.mylyn.jira.ui.tests</module>
     <module>connector-bugzilla-rest</module>
   </modules>
 </project>

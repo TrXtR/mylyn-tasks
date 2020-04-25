@@ -15,29 +15,29 @@
  -->
 <plugin>
    <extension
-         id="org.eclipse.mylyn.trac.repository"
+         id="org.eclipse.mylyn.jira.repository"
          name="%repository.name"
          point="org.eclipse.mylyn.tasks.ui.repositories">
       <connectorUi
-            brandingIcon="icons/eview16/trac-icon.gif"
-            class="org.eclipse.mylyn.internal.trac.ui.TracConnectorUi"
-            id="trac"
-            name="%TracConnectorUi.name"
-            overlayIcon="icons/eview16/overlay-trac.gif"/>
+            brandingIcon="icons/eview16/jira-icon.gif"
+            class="org.eclipse.mylyn.internal.jira.ui.JiraConnectorUi"
+            id="jira"
+            name="%JiraConnectorUi.name"
+            overlayIcon="icons/eview16/overlay-jira.gif"/>
    </extension>
    <extension
          point="org.eclipse.mylyn.tasks.ui.editors">
       <pageFactory
-            class="org.eclipse.mylyn.internal.trac.ui.editor.TracTaskEditorPageFactory"
-            id="org.eclipse.mylyn.trac.ui.pageFactory">
+            class="org.eclipse.mylyn.internal.jira.ui.editor.JiraTaskEditorPageFactory"
+            id="org.eclipse.mylyn.jira.ui.pageFactory">
       </pageFactory>
    </extension>
    <extension
          point="org.eclipse.ui.workbench.texteditor.hyperlinkDetectors">
       <hyperlinkDetector            
-            class="org.eclipse.mylyn.internal.trac.ui.TracHyperlinkDetector"
-            id="org.eclipse.mylyn.trac.ui.hyperlinksDetectors.Trac"
-            name="%TracHyperlinkDetector.name"
+            class="org.eclipse.mylyn.internal.jira.ui.JiraHyperlinkDetector"
+            id="org.eclipse.mylyn.jira.ui.hyperlinksDetectors.Jira"
+            name="%JiraHyperlinkDetector.name"
             targetId="org.eclipse.mylyn.tasks.ui.TaskEditor">
       </hyperlinkDetector>
    </extension>

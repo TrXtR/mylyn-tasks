@@ -8,11 +8,11 @@
     <version>3.26.0-SNAPSHOT</version>
   </parent>
   <groupId>org.eclipse.mylyn.tasks</groupId>
-  <artifactId>org.eclipse.mylyn.trac.tests</artifactId>
+  <artifactId>org.eclipse.mylyn.jira.tests</artifactId>
   <version>3.26.0-SNAPSHOT</version>
   <packaging>eclipse-test-plugin</packaging>
   <properties>
-    <test.suite>${project.artifactId}.AllTracTests</test.suite>
+    <test.suite>${project.artifactId}.AllJiraTests</test.suite>
   </properties>
   <build>
     <plugins>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>org.eclipse.mylyn.trac.ui</name>
+	<name>org.eclipse.mylyn.jira.ui</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -39,7 +39,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1367109048408</id>
+			<id>0</id>
 			<name></name>
 			<type>10</type>
 			<matcher>

@@ -2,28 +2,28 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         id="org.eclipse.mylyn.trac.repository"
+         id="org.eclipse.mylyn.jira.repository"
          name="%repository.name"
          point="org.eclipse.mylyn.tasks.ui.repositories">
       <connectorCore
-            class="org.eclipse.mylyn.internal.trac.core.TracRepositoryConnector"
-            id="trac"
-            name="%TracRepositoryConnector.name"/>
+            class="org.eclipse.mylyn.internal.jira.core.JiraRepositoryConnector"
+            id="jira"
+            name="%JiraRepositoryConnector.name"/>
       <taskListMigrator
-            class="org.eclipse.mylyn.internal.trac.core.TracTaskListMigrator">
+            class="org.eclipse.mylyn.internal.jira.core.JiraTaskListMigrator">
       </taskListMigrator>
       <repositoryMigrator
-            class="org.eclipse.mylyn.internal.trac.core.TracRepositoryMigrator">
+            class="org.eclipse.mylyn.internal.jira.core.JiraRepositoryMigrator">
       </repositoryMigrator>
    </extension>
    <extension
-         point="org.eclipse.mylyn.tasks.core.templates">
+         point="org.eclipse.mylyn.jira.core.templates">
       <repository
             addAutomatically="false"
             anonymous="true"
             label="Edgewall"
-            repositoryKind="trac"
-            urlRepository="http://trac.edgewall.org"
-            version="TRAC_0_9"/>
+            repositoryKind="jira"
+            urlRepository="http://jira.whatisedgewall.org"
+            version="JIRA_0_9"/>
    </extension>
 </plugin>
