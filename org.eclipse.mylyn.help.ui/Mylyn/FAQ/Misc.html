@@ -168,11 +168,12 @@
 			<b><code>.options</code></b> file in your eclipse directory and enable tracing by including the corresponding lines which set the tracing setting for a particular concern to true:
 		</p>
 		<p>
-			<b>JIRA</b>
+			<b>Jira</b>
 		</p>
-		<pre>org.eclipse.mylyn.jira.core/debug/connector=true
-org.eclipse.mylyn.jira.core/debug/dataHandler=true
-org.eclipse.mylyn.jira.core/debug/repository=true
+		<pre># trace authentication requests
+org.eclipse.mylyn.jira.core/debug/authentication=true
+# trace XML-RPC calls
+org.eclipse.mylyn.jira.core/debug/xmlrpc=true
 </pre>
 		<p>
 			<b>Trac</b>
